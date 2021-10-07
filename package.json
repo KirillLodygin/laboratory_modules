@@ -1,0 +1,23 @@
+{
+  "name": "laboratory_modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KirillLodygin/laboratory_modules.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KirillLodygin/laboratory_modules/issues"
+  },
+  "homepage": "https://github.com/KirillLodygin/laboratory_modules#readme",
+  "dependencies": {
+    "http-server": "13.0.2"
+  }
+}
