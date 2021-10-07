@@ -1,10 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+  <meta charset='UTF-8'>
+  <title>Laboratory Modules</title>
+  <link rel='stylesheet' href='modal.css'>
+  <link rel='stylesheet' href='./node_modules/animate.css/animate.css'>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <style>
+    .date-and-time {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .date-and-time__p {
+      margin-right: 15px;
+      font-size: 35px;
+    }
+
+    .pencil {
+      cursor: pointer;
+      color: green;
+    }
+
+    .pencil:hover {
+      color: red;
+    }
+
+    .date-and-time-input {
+      width: 100%;
+      border: 1px solid #cccccc;
+      padding: 4px 5px;
+      background: white;
+      border-radius: 5px;
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+      box-sizing: border-box;
+      font-size: 20px;
+    }
+
+    .color-red {
+      color: red;
+    }
+
+    .animation {
+      animation: tada; /* referring directly to the animation's @keyframe declaration */
+      animation-duration: 2s;
+    }
+
+  </style>
 </head>
 <body>
-$END$
+
+  <section>
+    <div class='date-and-time'>
+      <p class='date-and-time__p'></p>
+      <div class='pencil'><i class='fas fa-3x fa-pencil-alt'></i></div>
+    </div>
+
+
+  </section>
+
+  <script src='./node_modules/@fortawesome/fontawesome-free/js/all.js'></script>
+  <script src='modal.js'></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src='script.js'></script>
+
 </body>
 </html>
